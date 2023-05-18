@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WelcomeHome">
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="Welcome Home"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        android:textSize="40sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/UserWelcomeName"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_height="50dp"
+        android:textSize="40sp"
+        android:text="Name"
+        android:textColor="@color/yellow"
+        android:layout_gravity="center"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/copy"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="470dp"
+        android:gravity="center"
+        android:text="CopyRight By AashishKumarYadav"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        tools:ignore="HardcodedText" />
+</LinearLayout>
